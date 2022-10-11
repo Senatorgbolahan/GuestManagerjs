@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Guest Manager</title>
+</head>
+
+<body>
+
+    <div>
+        <p class="alert"></p>
+    </div>
+    <div class="main-form">
+        <form id="guest-form">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" class="u-width">
+            </div>
+            <div>
+                <label for="location">Location:</label>
+                <input type="text" id="location" class="u-width">
+            </div>
+            <div>
+                <button class="submit-btn" type="submit">Add Guests</button>
+            </div>
+        </form>
+    </div>
+
+    <table class="main-table">
+        <tr>
+            <th>Name</th>
+            <th>Location</th>
+            <th>Date Added</th>
+            <th>Action</th>
+        </tr>
+
+    </table>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
